@@ -1,0 +1,28 @@
+/*Universal selector*/
+*{
+    color: blue; 
+}
+
+/*Element selector*/
+h1{
+    color: darkorange;  
+ }
+ p{
+    color: yellowgreen;
+ }
+ button{
+    color: darkmagenta;
+ }
+
+ /*Id selector*/
+#heading1{
+    color:brown;
+}
+#heading2{
+    color:blueviolet;
+}
+
+/*Class Selector*/
+.para{
+    color:aqua;
+}
