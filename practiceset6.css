@@ -1,0 +1,29 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+#outerdiv{
+    height: 400px;
+    width: 400px;
+    background-color:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+
+}
+#innerdiv{
+    height: 100px;
+    width: 100px;
+    background-color: forestgreen; 
+    border: 2px solid black;
+}
