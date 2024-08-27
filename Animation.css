@@ -1,0 +1,49 @@
+/* #div1{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    background-color: aqua;
+    border: 2px solid black;
+    animation-name: class;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-timing-function: 1s;
+    animation-iteration-count: 5;
+} */
+#div2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    /* background-color: skyblue; */
+    border: 2px solid black;
+    /* animation-name: class;
+    animation-duration: 2s; 
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite; */
+    animation: class 2s ease-in 0s infinite ;
+}
+
+/* @keyframes class{
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: red;
+    }
+} */
+
+/*Another way to write a keyframe*/
+@keyframes class{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: yellow;
+    }
+}

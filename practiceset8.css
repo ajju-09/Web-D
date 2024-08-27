@@ -1,0 +1,23 @@
+
+body{
+    background-color: black;
+}
+div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    border: 20px solid #0077b6;
+    border-top: 20px solid #caf0f8;
+    border-radius: 50%;
+    animation: rotating 1000ms ease-in-out 0s infinite normal;
+}
+@keyframes rotating{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
